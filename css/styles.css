@@ -65,20 +65,24 @@ body {
 
 #picture-victor{
     max-width: 30rem;
+    margin-left: 20rem;
 }
 
 .container-header__list{
     display: flex;
     flex-wrap: wrap;  
     justify-content: flex-end;
-    margin: 2rem;
+    margin: 2rem 5rem 2rem 2rem;
 }
 
 .container-header__link{
+    font-size: 1.2rem;
     color: white;
+    margin-right: 2rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 2rem;
     text-decoration: none;
     transition-duration: 0.5s;
-    margin-right: 2rem;
 }
 
 .container-header__link:hover{
