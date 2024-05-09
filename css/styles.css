@@ -31,6 +31,7 @@ body {
 .container-header__hello {
     font-size: 1.8rem;
     margin-bottom: 2.2rem;
+    margin-top: 10rem;
 }
 
 .container-header__name {
@@ -47,7 +48,7 @@ body {
 
 .container-header__icone{
     background-color: #C4C4C4;
-    max-width: 2rem;
+    max-width: 3rem;
     padding: 0.5rem;
     margin: 5rem 1rem 12rem 0;
     border-radius: 5px;
@@ -93,32 +94,81 @@ body {
 
 /* ---MAIN--- */
 
+.container-main__title{
+    display: inline-block;
+    margin: 2rem 42%;
+    padding: 1.5rem 4rem;
+    white-space : nowrap;
+    border: solid 6px black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.3rem; 
+}
+
+.container-main__first-paragraph{
+    text-align: center;
+    max-width: 50%;
+    margin: 3rem auto;
+}
+
+.container-main__button{
+    display: inline-block;
+    margin: 1rem 44.5%;
+    padding: 0.5rem 2rem;
+    border: none;
+    background-color: #E6E6E6;
+    font-family: roboto;
+    font-size: 1rem;
+    text-transform: uppercase;
+    white-space : nowrap;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    transition-duration: 0.5s;
+}
+
+.container-main__button:hover{
+    background-color: #C4C4C4;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+
 .container-main__resume-skills{
     display: flex;
     justify-content: center;  
+    max-width: 80%;
+    margin: 2rem 15rem;
 }
 
 .container-main__resume-skills__design{
     position: relative;
-    width: 40%;    
+    width: 50%;    
 }
 
 .container-main__resume-skills__development{
     position: relative;
-    width: 40%;    
+    width: 50%;    
 }
 
 .container-main__resume-skills__subtitle{
     position: absolute;
-    top: 50%;
-    left: 6%;
+    top: 15%;
+    left: 5%;
     font-weight: bold;
-    text-transform: uppercase;    
+    text-transform: uppercase;   
+    letter-spacing: 0.3rem; 
 }
 
-
+.container-main__resume-skills__paragraph{
+    margin-top: 2rem;
+    padding: 0 3rem;
+}
 
 .container-main__resume-skills__icone{
     max-width: 3rem;
 }
+
+
 
