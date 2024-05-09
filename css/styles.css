@@ -1,0 +1,16 @@
+body {
+    background-color: #D7D7D7;
+}
+
+.container-header {
+    display: flex;
+}
+
+.container-header__presentation{
+    width: 50%;
+}
+
+#header-background-black{
+    background-color: black;
+    width: 50%;
+}
