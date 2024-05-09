@@ -8,9 +8,10 @@
 }
 
 body {
-    background-color: #D7D7D7;
+    background-color: #E6E6E6;
     font-family: roboto;
 }
+
 
 .container-header {
     display: flex;
@@ -89,3 +90,35 @@ body {
     background-color: white;
     color: black;
 }
+
+/* ---MAIN--- */
+
+.container-main__resume-skills{
+    display: flex;
+    justify-content: center;  
+}
+
+.container-main__resume-skills__design{
+    position: relative;
+    width: 40%;    
+}
+
+.container-main__resume-skills__development{
+    position: relative;
+    width: 40%;    
+}
+
+.container-main__resume-skills__subtitle{
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    font-weight: bold;
+    text-transform: uppercase;    
+}
+
+
+
+.container-main__resume-skills__icone{
+    max-width: 3rem;
+}
+
