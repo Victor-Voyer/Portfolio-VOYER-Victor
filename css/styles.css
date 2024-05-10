@@ -15,11 +15,12 @@ body {
 
 .container-header {
     display: flex;
+    border-bottom: solid black 2px;
 }
 
 /* ---HEADER-LEFT--- */
 .container-header__left{
-    width: 30%;
+    width: 35%;
     margin-left: 12rem;
 }
 
@@ -58,7 +59,7 @@ body {
 /* ---HEADER-RIGHT--- */
 
 .container-header__right{
-    width: 60%;
+    width: 65%;
     height: 70%;    
     background-color: black;
     clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
@@ -94,9 +95,15 @@ body {
 
 /* ---MAIN--- */
 
+/* ----ABOUT ME---- */
+
+.container-main__presentation{
+    display: flex;
+    flex-direction: column;
+}
+
 .container-main__title{
-    display: inline-block;
-    margin: 2rem 42%;
+    margin: 2rem auto;
     padding: 1.5rem 4rem;
     white-space : nowrap;
     border: solid 6px black;
@@ -170,5 +177,22 @@ body {
     max-width: 3rem;
 }
 
+/* ----SKILLS---- */
 
+.container-main__skills{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.container-main__skills__icone{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-main__logo-software{
+    width: 15rem;
+    height: 15rem;
+    
+}
 
