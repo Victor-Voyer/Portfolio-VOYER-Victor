@@ -12,6 +12,9 @@ body {
     font-family: roboto;
 }
 
+em{
+    text-transform: lowercase;
+}
 
 .container-header {
     display: flex;
