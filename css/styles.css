@@ -185,14 +185,38 @@ body {
     flex-direction: column;
 }
 
-.container-main__skills__icone{
+.container-main__title__h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem; 
+    margin: 2rem 0 2rem 20rem;
+}
+
+.container-main__skills__logo{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+.container-main__software-logo{
+    padding: 2rem;
+    text-align: center;
+    margin: 3rem 5rem;
 }
 
 .container-main__logo-software{
-    width: 15rem;
-    height: 15rem;
-    
+    width: 8rem;
+    height: 8rem;    
 }
+
+.container-main__title__h4{
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+}
+
 
