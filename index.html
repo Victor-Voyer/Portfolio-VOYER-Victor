@@ -35,7 +35,7 @@
     <main class="container-main">
         <div class="container-main__presentation">
             <h2 class="container-main__title">About me</h2>
-            <p class="container-main__first-paragraph">
+            <p class="container-main__paragraph">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolores debitis repudiandae ex tempora doloribus dicta, amet ea sequi unde. Placeat quibusdam aliquam aut incidunt quia deleniti assumenda ex perspiciatis.
             </p>
             <a href="#"><button type="button" class="container-main__button">More about me</button></a>
@@ -155,10 +155,45 @@
                 
             </section>
 
-        </div>
-        <div class="container-main__portfolio">
-            <h2 class="container-main__title">Portfolio</h2>
-            <!-- <img id="image-wild" src="./img/Image de fond nature japonaise.jpeg" alt=""> -->
+            <section class="container-main__portfolio">
+                <h2 class="container-main__title">Portfolio</h2>
+                <!-- <img id="image-wild" src="./img/Image de fond nature japonaise.jpeg" alt=""> -->
+            </section>
+
+            
+            <h2 class="container-main__title">Contact</h2>
+            <section class="container-main__form">
+                <p class="container-main__paragraph">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, reiciendis!
+                </p>
+                <hr>
+                <form action="" method="get" class="container-main__create-form">
+                    <div class="container-main__create-form">
+                        <label class="container-main__create-form__label" for="name"></label>
+                        <input class="container-main__create-form__input" type="text" name="name" id="name" placeholder="Enter your name *" required />
+                    </div>
+
+                    <div class="container-main__create-form">
+                        <label class="container-main__create-form__label" for="email"></label>
+                        <input class="container-main__create-form__input" type="email" name="email" id="email" placeholder="Enter your email *" required />
+                    </div>
+
+                    <div class="container-main__create-form">
+                        <label class="container-main__create-form__label" for="tel"></label>
+                        <input class="container-main__create-form__input" type="tel" name="tel" id="tel" placeholder="Phone number"/>
+                    </div>
+
+                    <div class="container-main__create-form">
+                        <label class="container-main__create-form__label" for="message"></label>
+                        <textarea name="message" id="message" class="container-main__create-form__input" rows="5" cols="30" placeholder="Your message *"></textarea>
+                    </div>
+
+                    
+                </form>
+            </section>
+            <div class="container-main__create-form">
+                <input class="container-main__button" type="submit" value="submit" />
+            </div>
         </div>
 
     </main>

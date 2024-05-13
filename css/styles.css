@@ -104,6 +104,7 @@ em{
 .container-main__presentation{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .container-main__title{
@@ -119,7 +120,7 @@ em{
     background-color: #E6E6E6;
 }
 
-.container-main__first-paragraph{
+.container-main__paragraph{
     text-align: center;
     max-width: 50%;
     margin: 3rem auto;
@@ -127,7 +128,6 @@ em{
 
 .container-main__button{
     display: inline-block;
-    margin: 1rem 44.5%;
     padding: 0.5rem 2rem;
     border: none;
     background-color: #E6E6E6;
@@ -224,6 +224,8 @@ em{
     margin-top: 1.5rem;
 }
 
+/* ----PORTFOLIO---- */
+
 .container-main__portfolio{
     display: flex;  
     padding: 7rem;
@@ -234,6 +236,32 @@ em{
     /* filter: opacity(50%); */
 }
 
+/* ----FORMULAIRE---- */
 
+.container-main__form{
+    border-bottom: solid 3rem mediumblue;  
+}
 
+.container-main__create-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 2rem auto 0.5rem auto;  
+}
 
+.container-main__create-form__input{
+    background-color: #E6E6E6;
+    border: none;
+    border-bottom: solid black 4px;
+    border-left: solid black 4px;
+    height: 3rem;
+    width: 50rem;
+    align-self: center;
+    font-style: italic;
+    text-transform: uppercase;
+    padding-left: 0.5rem;
+}
+
+.container-main__create-form textarea{
+    height: 15rem;
+}
